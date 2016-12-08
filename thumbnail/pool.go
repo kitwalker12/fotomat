@@ -2,9 +2,10 @@ package thumbnail
 
 import (
 	"errors"
-	"github.com/die-net/fotomat/vips"
 	"runtime"
 	"sync"
+
+	"github.com/kitwalker12/fotomat/vips"
 )
 
 var (

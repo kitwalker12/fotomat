@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	"github.com/die-net/fotomat/format"
 	"time"
+
+	"github.com/kitwalker12/fotomat/format"
 )
 
 var (

@@ -2,7 +2,8 @@ package format
 
 import (
 	"errors"
-	"github.com/die-net/fotomat/vips"
+
+	"github.com/kitwalker12/fotomat/vips"
 )
 
 const (

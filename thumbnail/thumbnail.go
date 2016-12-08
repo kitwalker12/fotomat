@@ -2,10 +2,11 @@ package thumbnail
 
 import (
 	"fmt"
-	"github.com/die-net/fotomat/format"
-	"github.com/die-net/fotomat/vips"
 	"math"
 	"time"
+
+	"github.com/kitwalker12/fotomat/format"
+	"github.com/kitwalker12/fotomat/vips"
 )
 
 // Thumbnail scales or crops a compressed image blob according to the

@@ -2,13 +2,14 @@ package thumbnail
 
 import (
 	"fmt"
-	"github.com/die-net/fotomat/format"
-	"github.com/die-net/fotomat/vips"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"strconv"
 	"testing"
+
+	"github.com/kitwalker12/fotomat/format"
+	"github.com/kitwalker12/fotomat/vips"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMain(m *testing.M) {

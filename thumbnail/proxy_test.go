@@ -2,14 +2,15 @@ package thumbnail
 
 import (
 	"fmt"
-	"github.com/die-net/fotomat/format"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
 	"time"
+
+	"github.com/kitwalker12/fotomat/format"
+	"github.com/stretchr/testify/assert"
 )
 
 const (

@@ -2,8 +2,9 @@ package format
 
 import (
 	"errors"
-	"github.com/die-net/fotomat/vips"
 	"net/http"
+
+	"github.com/kitwalker12/fotomat/vips"
 )
 
 var (

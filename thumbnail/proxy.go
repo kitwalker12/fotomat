@@ -2,13 +2,14 @@ package thumbnail
 
 import (
 	"fmt"
-	"github.com/die-net/fotomat/format"
 	"io/ioutil"
 	"net"
 	"net/http"
 	"net/url"
 	"strconv"
 	"time"
+
+	"github.com/kitwalker12/fotomat/format"
 )
 
 const (

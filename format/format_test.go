@@ -2,12 +2,13 @@ package format
 
 import (
 	"fmt"
-	"github.com/die-net/fotomat/vips"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"strconv"
 	"testing"
+
+	"github.com/kitwalker12/fotomat/vips"
+	"github.com/stretchr/testify/assert"
 )
 
 const (

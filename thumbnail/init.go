@@ -1,7 +1,7 @@
 package thumbnail
 
 import (
-	"github.com/die-net/fotomat/vips"
+	"github.com/kitwalker12/fotomat/vips"
 )
 
 func init() {

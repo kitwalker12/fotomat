@@ -3,9 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/die-net/fotomat/format"
-	"github.com/die-net/fotomat/vips"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"log"
 	"net"
@@ -13,6 +10,10 @@ import (
 	"os"
 	"runtime"
 	"testing"
+
+	"github.com/kitwalker12/fotomat/format"
+	"github.com/kitwalker12/fotomat/vips"
+	"github.com/stretchr/testify/assert"
 )
 
 var localhost string
